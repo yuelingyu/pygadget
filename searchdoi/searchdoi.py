@@ -48,7 +48,7 @@ def get_authors(entry):
 
 
 print("Reading Bibliography...")
-with open(sys.argv[1]) as bibtex_file:
+with open(sys.argv[1], encoding='utf-8') as bibtex_file:
     bibliography = bibtexparser.load(bibtex_file)
 
 
