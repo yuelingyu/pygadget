@@ -23,9 +23,10 @@ xtick.top: True
 xtick.direction: in
 ytick.right: True
 ytick.direction: in
-
 xtick.labelsize: 28
 ytick.labelsize: 28
+xtick.major.pad: 6.0
+ytick.major.pad: 6.0
 
 ### FONTS
 font.family: serif
@@ -44,5 +45,5 @@ axes.labelsize: 28
 axes.labelweight: medium
 # axes.spines.top: True
 # axes.spines.right: True
-axes.prop_cycle: cycler('color', ['0072B2', '009E73', 'D55E00', 'CC79A7', 'F0E442', '56B4E9'])
+axes.prop_cycle: cycler('color', ['0072BD', 'D95319', 'EDB120', '7E2F8E', '77AC30', '4DBEEE', 'A2142F'])
 axes.labelpad: 6.0
