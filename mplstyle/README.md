@@ -5,3 +5,6 @@ Customize matplotlib style
 3. Create or copy the ```mystyle.mplstyle``` files
 4. Use customized style by ```plt.style.use('mystyle')```
 5. Update if mplstyle file has been modified ``` plt.style.reload_library()```
+
+
+The details of mplstyle file can be found in https://matplotlib.org/stable/tutorials/introductory/customizing.html
