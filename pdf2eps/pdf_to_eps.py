@@ -10,11 +10,12 @@ import os
 from subprocess import call
 
 
-
 def pdf2eps(pdf_dir, eps_dir):
+    # Check if eps folder exists.
     if not os.path.exists(eps_dir):
         os.mkdir(eps_dir)
-    
+        
+    # Convert .pdf to .eps
     for file in os.listdir(pdf_dir):
         if file.endswith(".pdf"):
             file_name = os.path.splitext(file)[0]
@@ -26,6 +27,4 @@ def pdf2eps(pdf_dir, eps_dir):
 if __name__ == "__main__":
    pdf_dir = os.getcwd()
    eps_dir = os.path.join(pdf_dir, "files_eps")
-   
    pdf2eps(pdf_dir, eps_dir)
-        
