@@ -1,2 +1,2 @@
 # pygadget
-Some handy python tools.
+Collection of some handy python tools.
